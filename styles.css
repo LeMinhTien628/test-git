@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F7EAC6;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-side {
+    background-color: #f7eac6;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.character-img {
+    width: 100%;
+    height: auto;
+}
+
+.right-side {
+    width: 50%;
+    padding: 40px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-icon i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #E29652;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #E29652;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #F17773;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #E16969;
+}
+
+.or {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #777;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-btn {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    width: 30%;
+    text-align: center;
+}
+
+.social-btn.google {
+    background-color: #fff;
+}
+
+.social-btn.facebook {
+    background-color: #fff;
+}
+
+.social-btn.apple {
+    background-color: #fff;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #E29652;
+    text-decoration: none;
+}
